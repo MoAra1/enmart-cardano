@@ -1,6 +1,7 @@
 import CardanoWeb3 from "../cardano-web3-browser"
 import { notification } from "antd"
 import store from "store"
+import { apply } from "redux-saga/effects";
 
 const network = store.get("app.settings.network")
 
